@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html>
+
+
+    <head>
+    
+        <title>IEDCTKM </title>
+        
+        <meta charset="utf-8">
+        
+        <meta name="description" content="Simple, clean, responsive website built with html5, CSS3, Js, jQuery and Bootstrap">
+        
+        <meta name="keywords" content="web, design, html, css, html5, css3, javascript, jquery, bootstrap, development">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        
+         <!-- Google Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Raleway:500italic,600italic,600,700,700italic,300italic,300,400,400italic,800,900' rel='stylesheet' type='text/css'>
+        
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600italic,700,900' rel='stylesheet' type='text/css'>
+      
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        
+        <!-- Fontawesome  -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        
+        <!-- Animate CSS -->
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/style1.css">
+        
+        
+       <!-- Bootstrap JavaScript -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        
+        
+
+        
+        <!-- Add wow js lib -->
+        <script src="js/wow.min.js"></script>
+      
+        <!-- Custom Js -->
+        <script src="js/custom.js"></script>
+
+	 </head>
+	 <body>
+    
+        <!-- Header -->
+        <header class="header" id="HOME">
+             <!-- Navigation -->
+            <nav class="navbar navbar-default navbar-fixed-top " role="navigation">
+
+    <div class="container">
+
+        <div class="navbar-header">
+
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+                <span class="icon icon-bar"></span>
+
+                <span class="icon icon-bar"></span>
+
+                <span class="icon icon-bar"></span>
+
+            </button>
+
+            <a href="home/" class="navbar-brand"><img src="images/logo.png" alt="IEDC TKMCE" width="200px" height="70px" ></a>
+
+        </div>
+
+
+
+        <div class="collapse navbar-collapse">
+
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="../iedc/index.html#HOME" class="nav-item" >Home</a></li>
+
+                <li class="dropdown">
+
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"  >Initiatives<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+
+                        <li><a href="../tcof/tcof.html" style="color:blue">TCoF</a></li>
+
+                        <li><a href="../innovationn/innovation.html" style="color:blue" >Innovation & Research Cell</a></li>
+
+                        <li><a href="../communities/community.html" style="color:blue" >Communities</a></li>
+
+                    </ul>
+
+                </li>
+
+                <li><a href="../gallery/gallery.html">Gallery</a></li>
+
+                <li><a href="../team/team.html"   >Team</a></li>
+
+                <li><a href="../iedc/index.html#CONTACT" class="nav-item" >Contact</a>
+				
+                <li><a href="../login/login.html">Hire a freelancer</a></li>
+                <li><a href="../login/login.html" style="color: #F44336;font-weight: 600;">login</a>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+            
+           
+		   
+      </header>
+	  
+	       
+	  <div class="container-fluid " style="margin-left:40px;margin-top:120px;">
+    <div class="row">
+        <div class="page-header">
+            <h3>Submit Your Idea</h3>
+        </div>
+        <form class='form-horizontal' role='form' action="submit_idea.php" >
+            <div class="form-group">
+                <div class="col-md-9">
+                    <label for="name">Name of Applicant</label>
+                    <input type="text" name="fullName" class="form-control" placeholder="Enter your Full Name" id="name" required>
+                </div>
+            </div>
+            <div class='form-group'>
+                <div class="col-md-3">
+                    <label for="name">Admission Number</label>
+                    <input type="number" name="admNo" class="form-control" id="admNo" placeholder="Enter the Admission Number" required>
+                </div>
+                <div class="col-md-3">
+                    <label for="name">Department</label>
+                    <select class="form-control" id="slct" name="deptName" required>
+                        <option value="" selected>Select..</option>
+                        <option value="Mechanical Engineering">Mechanical Engineering</option>
+                        <option value="Electrical & Electronics Engineering">Electrical & Electronics Engineering</option>
+                        <option value="Civil Engineering">Civil Engineering</option>
+                        <option value="Mechanical Production Engineering">Mechanical Production Engineering</option>
+                        <option value="Computer Science Engineering">Computer Science Engineering</option>
+                        <option value="Electronics & Communication Engineering">Electronics & Communication Engineering</option>
+                        <option value="Chemical Engineering">Chemical Engineering</option>
+                        <option value="B.Arch">B.Arch</option>
+                        <option value="MCA">MCA</option>
+                        <option value="M.Tech">M.Tech</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="name">Year of study</label>
+                    <select class="form-control" id="slct" name="yrofStudy" required>
+                        <option value="" selected>Select...</option>
+                        <option value="First">First</option>
+                        <option value="Second">Second</option>
+                        <option value="Third">Third</option>
+                        <option value="Fourth">Fourth</option>
+                        <option value="Fifth">Fifth</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-5">
+                    <label for="email">Email </label>
+                    <input type="email" name="email" class="form-control" placeholder="Enter the Email address" id="email" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="name">Mobile Number</label>
+                    <input type="text" name="mobNumber" class="form-control" placeholder="Enter your Contact Number" id="mobNumber" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-4">
+                    <label for="comment">Hobbies</label>
+                    <textarea class="form-control" rows="5" id="Hobbies" name="hobbies" required></textarea>
+                </div>
+                <div class="col-md-5">
+                    <label for="comment">Ambition</label>
+                    <textarea class="form-control" rows="5" id="Ambition" name="ambition" required></textarea>
+                </div>
+            </div>
+            <div class='form-group'>
+                <div class="col-md-6">
+                    <label for="name">Category</label>
+                    <select class="form-control" id="slct" name="category" required>
+                        <option value="" selected>Select.....</option>
+                        <option value="Agriculture">1. Agriculture</option>                   
+                        <option value="Bio technology">2.Bio technology</option>
+                        <option value="Bio Medical Engineering">3.Bio Medical Engineering</option>
+                        <option value="Manufacturing">4.Manufacturing</option>
+                        <option value="Automobile">5.Automobile</option>
+                        <option value="Food Technology">6.Food Technology</option>
+                        <option value="Construction">7.Construction</option>
+                        <option value="Communiction">8.Communiction</option>
+                        <option value="Internet of Things">9.Internet of Things</option>
+                        <option value="Mobile Apps">10.Mobile Apps</option>
+                        <option value="Fashion">11.Fashion</option>
+                        <option value="Travel & Tourism">12.Travel & Tourism</option>
+                        <option value="Real Estate">13.Real Estate</option>
+                        <option value="Entertainment">14.Entertainment</option>
+                        <option value="E Commerce">15.E Commerce</option>
+                        <option value="Social Sector">16.Social Sector</option>
+                        <option value="Social Media">17.Social Media</option>
+                        <option value="Nano Technology">18.Nano Technology</option>
+                        <option value="">19.Others</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="name">Others</label>
+                    <input type="text" name="category" class="form-control" id="category" placeholder="Specify the Category">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-9">
+                    <label for="comment">Describe the problem you are trying to solve </label>
+                    <textarea class="form-control" rows="5" id="problem" name="problem" required></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-9">
+                    <label for="comment">Describe Your Idea </label>
+                    <textarea class="form-control" rows="5" id="idea" name="idea" required></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-9">
+                    <label for="comment">What is unique about your idea </label>
+                    <textarea class="form-control" rows="5" id="unique_idea" name="unique_idea" required></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-9">
+                    <label for="comment">Value Proposition offered to customers</label>
+                    <textarea class="form-control" rows="5" id="value_proposition" name="value_proposition" required></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-9">
+                    <label for="comment">Describe the revenue model </label>
+                    <textarea class="form-control" rows="5" id="revenue_model" name="revenue_model" required></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-9">
+                    <label for="comment">Additional Material to support: </label>
+                    <span class="btn btn-primary btn-file">Browse <input type="file"></span>
+                </div>
+            </div>
+            <div class="form-group" style="margin-top:60px">
+                <div class="col-md-9">
+                    <button class="btn btn-info" type="submit" style="border:0;padding:10px 20px;float:left;margin-right:20px;">Submit</button>
+                    <button class="btn btn-danger" type="reset" style="background-color:#008080;padding:10px 25px;float:left;border:0;">Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+	  
+	  
+		 <!-- Footer -->
+        <footer class="footer">
+        
+            <div class="container">
+            
+                <div class="row">
+                
+                    <div class="col-md-6">
+                    
+                        <div id="copyright">
+                            <p>POWERED BY<a href="#"> - TKMCE DEVELOPERS</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                    
+                            <div class="scroll-top">
+                                <a href="#HOME" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
+                            </div>
+                    </div>
+                
+                
+                </div>
+            
+            </div>
+        
+        
+        </footer>
+        
+
+	
+	</body>
+</html>

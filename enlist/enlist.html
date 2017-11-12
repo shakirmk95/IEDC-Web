@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html>
+
+
+    <head>
+    
+        <title>IEDCTKM </title>
+        
+        <meta charset="utf-8">
+        
+        <meta name="description" content="Simple, clean, responsive website built with html5, CSS3, Js, jQuery and Bootstrap">
+        
+        <meta name="keywords" content="web, design, html, css, html5, css3, javascript, jquery, bootstrap, development">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        
+         <!-- Google Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Raleway:500italic,600italic,600,700,700italic,300italic,300,400,400italic,800,900' rel='stylesheet' type='text/css'>
+        
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600italic,700,900' rel='stylesheet' type='text/css'>
+      
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        
+        <!-- Fontawesome  -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        
+        <!-- Animate CSS -->
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/style1.css">
+        
+        
+       <!-- Bootstrap JavaScript -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        
+        
+
+        
+        <!-- Add wow js lib -->
+        <script src="js/wow.min.js"></script>
+      
+        <!-- Custom Js -->
+        <script src="js/custom.js"></script>
+
+	 </head>
+	 <body>
+    
+        <!-- Header -->
+        <header class="header" id="HOME">
+             <!-- Navigation -->
+            <nav class="navbar navbar-default navbar-fixed-top " role="navigation">
+
+    <div class="container">
+
+        <div class="navbar-header">
+
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+                <span class="icon icon-bar"></span>
+
+                <span class="icon icon-bar"></span>
+
+                <span class="icon icon-bar"></span>
+
+            </button>
+
+            <a href="home/" class="navbar-brand"><img src="images/logo.png" alt="IEDC TKMCE" width="200px" height="70px" ></a>
+
+        </div>
+
+
+
+        <div class="collapse navbar-collapse">
+
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="../iedc/index.html#HOME" class="nav-item" >Home</a></li>
+
+                <li class="dropdown">
+
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"  >Initiatives<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+
+                        <li><a href="../tcof/tcof.html" style="color:blue">TCoF</a></li>
+
+                        <li><a href="../innovationn/innovation.html" style="color:blue" >Innovation & Research Cell</a></li>
+
+                        <li><a href="../communities/community.html" style="color:blue" >Communities</a></li>
+
+                    </ul>
+
+                </li>
+
+                <li><a href="../gallery/gallery.html">Gallery</a></li>
+
+                <li><a href="../team/team.html"   >Team</a></li>
+
+                <li><a href="../iedc/index.html#CONTACT" class="nav-item" >Contact</a>
+				
+                <li><a href="../login/login.html">Hire a freelancer</a></li>
+                <li><a href="../login/login.html" style="color: #F44336;font-weight: 600;">login</a>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+            
+           
+		   
+      </header>
+	  
+	       <div class="container-fluid" style="margin-top:120px;margin-left:30px">
+    <div class="row">
+        <div class="page-header">
+            <h3>Enlist Requirements</h3>
+        </div>
+        <form class='form-horizontal' role='form' method="post" action="submit_idea.php">
+            <div class="form-group">
+                <div class="col-md-4">
+                    <label for="name">Project Name </label>
+                    <input type="text" name="projectName" class="form-control" placeholder="Enter the Project Name" id="projectName" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="name">Project Description</label>
+                    <input type="text" name="projectDesc" class="form-control" placeholder="Describe your Project" id="projectDesc" required>
+                </div>
+            </div>
+            <div class='form-group'>
+                <div class="col-md-4">
+                    <label for="name">Current Project Status</label>
+                    <select class="form-control" id="slct" name="projectStatus" required>
+                        <option value="" selected>Select the current status</option>
+                        <option value="Ideation or Concept Phase">Ideation or Concept Phase</option>
+                        <option value="Prototype Phase">Prototype Phase</option>
+                        <option value="Funded by Investors">Funded by Investors</option>
+                        <option value="First Customer Acquired">First Customer Acquired</option>
+                        <option value="Profitable or Sustainable">Profitable or Sustainable</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="name">Team Size</label>
+                    <select class="form-control" id="slct" name="teamSize" required>
+                        <option value="" selected>No.of People in your team</option>
+                        <option value="Less than 5">Less than 5</option>
+                        <option value="Between 5 and 10">Between 5 and 10</option>
+                        <option value="Between 10 and 20">Between 10 and 20</option>
+                        <option value="Above 20">Above 20</option>
+                    </select>
+                </div>
+            </div>
+            <label for="name" style="font-size:16px;margin-top:20px;margin-bottom:20px;"><u>Details of Required Team Member</u></label>
+            <div class='form-group'>
+                <div class="col-md-4">
+                    <label for="name">Work Profile</label>
+                    <select class="form-control" id="slct" name="workProfile" required>
+                        <option value="" selected>Select Profile</option>
+                        <option value="Graphic Designing">Graphic Designing</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Business Analyst">Business Analyst</option>
+                        <option value="Mobile App Development">Mobile App Development</option>
+                        <option value="Web Designinig">Web Designinig</option>
+                        <option value="Electronics Development">Electronics Development</option>
+                        <option value="Content writer">Content writer</option>
+                        <option value="Mechanical Product">Mechanical Product</option>
+                        <option value="Prototype Building">Prototype Building</option>
+                        <option value="Camera or Video Work">Camera or Video Work</option>
+                        <option value="Social Media Handling">Social Media Handling</option>
+                        <option value="Publicity">Publicity</option>
+                        <option value="Marketing">Marketing</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="name">Work Description</label>
+                    <input type="text" name="workDesc" class="form-control" placeholder="Short description of required work" id="workDesc" required>
+                </div>
+            </div>
+            <label for="name" style="font-size:16px;margin-top:20px;margin-bottom:20px;"><u>Incentives Offered</u></label>
+            <div class='form-group'>
+                <div class="col-md-4">
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="yes" name="co-founder">Co-Founder</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="yes" name="equity">Equity</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="" onchange="document.getElementById('payment').disabled=!this.checked;">Hire A Freelancer</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-4">
+                    <label for="name"></label>
+                    <input type="text" name="payment" class="form-control" placeholder="Estimated amount offered" id="payment" disabled>
+                </div>
+            </div>
+            <label for="name" style="font-size:16px;margin-top:20px;margin-bottom:20px;"><u>Personal Details</u></label>
+            <div class="form-group">
+                <div class="col-md-4">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="pname" class="form-control"  required>
+                </div>
+                <div class="col-md-4">
+                    <label for="name">E-mail Address</label>
+                    <input type="email" name="pemail" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-4">
+                    <label for="name">Mobile Number</label>
+                    <input type="number" name="pnumber" class="form-control" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="name">Contact Details</label>
+                    <input type="text" name="pcontact" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group" style="margin-top:60px">
+                <div class="col-md-9">
+                    <button class="btn btn-info" type="submit" style="border:0;padding:10px 20px;float:left;margin-right:20px;">Submit</button>
+                    <button class="btn btn-danger" type="reset" style="background-color:#008080;padding:10px 25px;float:left;border:0;">Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+	  
+	  
+		 <!-- Footer -->
+        <footer class="footer">
+        
+            <div class="container">
+            
+                <div class="row">
+                
+                    <div class="col-md-6">
+                    
+                        <div id="copyright">
+                            <p>POWERED BY<a href="#"> - TKMCE DEVELOPERS</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                    
+                            <div class="scroll-top">
+                                <a href="#HOME" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
+                            </div>
+                    </div>
+                
+                
+                </div>
+            
+            </div>
+        
+        
+        </footer>
+        
+
+	
+	</body>
+</html>
